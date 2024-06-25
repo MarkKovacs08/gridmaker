@@ -12,6 +12,7 @@ function addR() {
         col.onclick = function(){
             this.style.backgroundColor = colorSelected;
         };
+        
         row.appendChild(col);
         grid.appendChild(row);
     //otherwise append a new row with the current
