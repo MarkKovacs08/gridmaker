@@ -17,7 +17,11 @@ function addR() {
         grid.appendChild(row);
     //otherwise append a new row with the current
     //amount of columns
-    } else {
+    }
+    else if (rows.length === 8){
+        alert("Max amount of rows")
+    }
+    else {
         let numCols = rows[0].childElementCount;
         let row = document.createElement("tr");
         for (let i = 0; i < numCols; i++){
