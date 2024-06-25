@@ -1,5 +1,12 @@
 body{
 background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+height: 500px;
+left: 50%;
+width: 1250px;
+-ms-transform: translateX(-50%);
+transform: translateX(-50%);
+position: relative;
+border: 3px solid teal;
 }
 tr,td{
     border:1px;
@@ -12,15 +19,6 @@ td{
 }
 button{
   border-radius: 12px;
-}
-.border {
-  height: 500px;
-  left: 50%;
-  width: 1250px;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  position: relative;
-  border: 3px solid teal;
 }
 .center {
   margin: 0;
